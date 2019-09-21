@@ -79,6 +79,7 @@ import CoreMotion
             self.spaceship.position.x = nextPosition
         }
         override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+            if isPaused { return }
             let missile = SKSpriteNode(imageNamed: "missile")
             missile.position = CGPoint(x: self.spaceship.position.x, y: self.spaceship.position.y + 50)
             missile.physicsBody = SKPhysicsBody(circleOfRadius: missile.frame.height / 2)
@@ -140,7 +141,13 @@ import CoreMotion
                 guard let heart = hearts.last else { return }
                 heart.removeFromParent()
                 hearts.removeLast()
+                if hearts.isEmpty {
+                    gameOver()
+                }
             }
         }
-        
+        func gameOver() {
+            isPaused = true
+            timer?.invalidate()
+        }
 }
