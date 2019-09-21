@@ -10,7 +10,6 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
-    
     var earth: SKSpriteNode!
     
     override func didMove(to view: SKView) {
