@@ -15,6 +15,7 @@
 		0405C56F23362BF900517847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405C56D23362BF900517847 /* Main.storyboard */; };
 		0405C57123362BFC00517847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405C57023362BFC00517847 /* Assets.xcassets */; };
 		0405C57423362BFC00517847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405C57223362BFC00517847 /* LaunchScreen.storyboard */; };
+		0405C57C23363BBC00517847 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0405C57B23363BBC00517847 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0405C57023362BFC00517847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0405C57323362BFC00517847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0405C57523362BFC00517847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0405C57B23363BBC00517847 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0405C56923362BF900517847 /* GameScene.swift */,
 				0405C56B23362BF900517847 /* GameViewController.swift */,
 				0405C56D23362BF900517847 /* Main.storyboard */,
+				0405C57B23363BBC00517847 /* Explosion.sks */,
 				0405C57023362BFC00517847 /* Assets.xcassets */,
 				0405C57223362BFC00517847 /* LaunchScreen.storyboard */,
 				0405C57523362BFC00517847 /* Info.plist */,
@@ -136,6 +139,7 @@
 				0405C57123362BFC00517847 /* Assets.xcassets in Resources */,
 				0405C57423362BFC00517847 /* LaunchScreen.storyboard in Resources */,
 				0405C56823362BF900517847 /* Actions.sks in Resources */,
+				0405C57C23363BBC00517847 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
